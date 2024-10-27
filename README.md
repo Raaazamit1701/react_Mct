@@ -9,8 +9,6 @@ A simple weather application built with React that allows users to fetch and dis
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Demo
 
@@ -39,3 +37,28 @@ To run the application locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/Raaazamit1701/react_Mct.git
+
+2. Navigate into the project directory:
+   ```bash
+   git clone https://github.com/Raaazamit1701/react_Mct.git
+
+3. Install the required dependencies:
+   ```bash
+   npm install
+
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+
+
+5. Open your browser and go to http://localhost:3000 to view the application.
+  
+
+  ## Usage
+
+- Click the **Get Weather** button to fetch weather data for cities listed in the application.
+- Use the **search bar** to find specific cities. If found, it highlights the corresponding entry in the weather details table.
+- You can **update the description** of any city and **delete** any city from the displayed data.
+
