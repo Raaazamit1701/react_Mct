@@ -36,7 +36,7 @@ react-weather-app/
 ├── package.json
 ├── README.md
 └── .gitignore
-
+```
 ## Features
 
 - Fetch weather data for multiple cities.
