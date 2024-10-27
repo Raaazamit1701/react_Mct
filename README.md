@@ -56,9 +56,27 @@ To run the application locally, follow these steps:
 5. Open your browser and go to http://localhost:3000 to view the application.
   
 
-  ## Usage
+## Usage
 
 - Click the **Get Weather** button to fetch weather data for cities listed in the application.
 - Use the **search bar** to find specific cities. If found, it highlights the corresponding entry in the weather details table.
 - You can **update the description** of any city and **delete** any city from the displayed data.
 
+## File Structure 
+
+react-weather-app/
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+├── src/
+│   ├── Component/
+│   │   ├── CityList.js
+│   │   ├── Search.js
+│   │   └── WeatherDetails.js
+│   ├── App.js
+│   ├── index.js
+│   ├── App.css
+│   └── index.css
+├── package.json
+├── README.md
+└── .gitignore
