@@ -5,6 +5,7 @@ A simple weather application built with React that allows users to fetch and dis
 ## Table of Contents
 
 - [Demo](#demo)
+- [File Structure](#file-structure)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
@@ -15,6 +16,26 @@ A simple weather application built with React that allows users to fetch and dis
 Check out the live demo of the application: [Weather Application Demo](https://react-mct-rho.vercel.app/)
 
 You can also view the source code on GitHub: [Weather Application GitHub Repository](https://github.com/Raaazamit1701/react_Mct.git)
+
+## File Structure 
+
+```bash
+react-weather-app/
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+├── src/
+│   ├── Component/
+│   │   ├── CityList.js
+│   │   ├── Search.js
+│   │   └── WeatherDetails.js
+│   ├── App.js
+│   ├── index.js
+│   ├── App.css
+│   └── index.css
+├── package.json
+├── README.md
+└── .gitignore
 
 ## Features
 
@@ -62,22 +83,3 @@ To run the application locally, follow these steps:
 - Use the **search bar** to find specific cities. If found, it highlights the corresponding entry in the weather details table.
 - You can **update the description** of any city and **delete** any city from the displayed data.
 
-## File Structure 
-
-``` bash
-react-weather-app/
-├── public/
-│   ├── index.html
-│   └── favicon.ico
-├── src/
-│   ├── Component/
-│   │   ├── CityList.js
-│   │   ├── Search.js
-│   │   └── WeatherDetails.js
-│   ├── App.js
-│   ├── index.js
-│   ├── App.css
-│   └── index.css
-├── package.json
-├── README.md
-└── .gitignore
