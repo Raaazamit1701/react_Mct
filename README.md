@@ -64,4 +64,5 @@ To run the application locally, follow these steps:
 
 ## File Structure 
 
+``` bash
 react-weather-app/ ├── public/ │ ├── index.html │ └── favicon.ico ├── src/ │ ├── Component/ │ │ ├── CityList.js │ │ ├── Search.js │ │ └── WeatherDetails.js │ ├── App.js │ ├── index.js │ ├── App.css │ └── index.css ├── package.json ├── README.md └── .gitignore
